@@ -1,0 +1,17 @@
+[Unit]
+Description=Job that runs the {{service}} service
+
+[Service]
+Type=simple
+WorkingDirectory=/home/{{service}}/current/{{repo}}
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier={{service}}
+User={{service}}
+Group={{service}}
+EnvironmentFile=/home/{{service}}/current/.env
+ExecStart=/usr/bin/node .
+
+[Install]
+WantedBy=multi-user.target

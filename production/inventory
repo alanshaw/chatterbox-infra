@@ -1,0 +1,6 @@
+[web]
+prod.chatterbox
+
+# See: `group_vars/production.yaml` for group specific vars
+[production]
+prod.chatterbox

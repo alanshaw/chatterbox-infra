@@ -1,0 +1,8 @@
+- hosts: web
+  roles:
+    - apt-update
+    - bootstrap
+    - ufw
+    - node
+    - chatterbox-relay
+    - chatterbox-bot

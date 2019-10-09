@@ -1,0 +1,3 @@
+repo: alanshaw/chatterbox-relay
+service: chatterbox-relay
+chatterbox_ws_port: 4138

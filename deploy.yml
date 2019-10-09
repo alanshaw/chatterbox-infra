@@ -1,0 +1,8 @@
+# deploy.yml
+# - Assumes you have run bootstrap.yml to install pre-requists.
+- hosts: web
+  gather_facts: no
+  roles:
+    - apt-update
+    - chatterbox-relay
+    - chatterbox-bot
