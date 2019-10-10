@@ -1,6 +1,6 @@
 [web]
-prod.chatterbox
+138.68.55.103
 
-# See: `group_vars/production.yaml` for group specific vars
+# See: `group_vars/production.yml` for group specific vars
 [production]
-prod.chatterbox
+138.68.55.103

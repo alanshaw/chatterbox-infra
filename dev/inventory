@@ -1,6 +1,6 @@
 [web]
 dev.chatterbox
 
-# See: `group_vars/dev.yaml` for group specific vars
+# See: `group_vars/dev.yml` for group specific vars
 [dev]
 dev.chatterbox
